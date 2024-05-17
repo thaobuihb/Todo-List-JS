@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo list Thao</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+     <div class="container">
+  <h1 id="title">Todo List
+  <span class="title-span">Get one item done at a time.</span>
+  </h1>
+  <ul class="task-list">
+    <li>
+      <span class="label">Learn JS</span>
+      <div class="actions">
+        <input type="checkbox" class="btn-action btn-action-done">
+        <button class="btn-action btn-action-delete">✖</button>
+      </div>
+    </li>
+    <li>
+      <span class="label">Code a Todo List</span>
+      <div class="actions">
+        <input type="checkbox" class="btn-action btn-action-done">
+        <button class="btn-action btn-action-delete">✖</button>
+      </div>
+    </li>
+  </ul>
+  <div class="filter-wrapper">
+    <label for="filter" class="filter-lable">Show incompleted tasks only</label>
+    <input type="checkbox" id="filter">
+  </div>
+  <form action="#" class="form">
+    <label for="newitem">Add to the todo list</label>
+    <input type="text" id="newitem">
+    <button type="submit">Add Item</button>
+  </form>
+</div>    
+  </body>
+  <script src="index.js"></script>
+</html>
+
+
